@@ -55,10 +55,14 @@ const Header = () => {
                         </Box>
                         <Box className={classes.headerButtons}>
                             <Box component="div">
-                                <ButtonCustom variant="contained" sx={{ m: 2, boxShadow: 2 }}>Hire me</ButtonCustom>
+                                <a href='#contact' style={{ textDecoration: "none" }}>
+                                    <ButtonCustom variant="contained" sx={{ m: 2, boxShadow: 2 }}>Hire me</ButtonCustom>
+                                </a>
                             </Box>
                             <Box>
-                                <Button variant="outlined" sx={{ m: 2 }}>Resume</Button>
+                                <a href="https://drive.google.com/file/d/1GQaxLJ2gPI8NKuLqs3qoV82DfljC2llX/view?usp=sharing" style={{ textDecoration: "none" }}>
+                                    <Button variant="outlined" sx={{ m: 2 }}>Resume</Button>
+                                </a>
                             </Box>
                         </Box>
                     </Grid>

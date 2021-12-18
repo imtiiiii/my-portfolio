@@ -9,7 +9,7 @@ import { green } from '@material-ui/core/colors';
 const ContactMe = () => {
     return (
         <>
-            <Typography variant="h3" component="div" sx={{ textAlign: "center", letterSpacing: 4, my: 5 }}>
+            <Typography variant="h3" component="div" sx={{ textAlign: "center", letterSpacing: 4, my: 5 }} id="contact">
                 Contact Me-
             </Typography>
             <Grid container spacing={3}>
