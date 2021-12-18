@@ -78,8 +78,8 @@ const Learnings = () => {
                     <Box >
                         <TimelineItem style={{ height: "300px", marginBottom: "5px" }}>
                             <TimelineOppositeContent style={{ fontWeight: "bold", fontSize: "20px" }}>
-                                <Box sx={{ border: 1 }}>
-                                    Did few Projects <br></br> with technoligies <br></br> including <br></br> Mongodb <br></br> Express <br></br>React <br></br>Node
+                                <Box sx={{}}>
+                                    Did few Projects  with technoligies  including  Mongodb, Express, React, Node
                                 </Box>
                             </TimelineOppositeContent>
 
