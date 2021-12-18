@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
@@ -28,59 +28,71 @@ const Learnings = () => {
         <>
 
             <Typography variant="h2" component='div' sx={{ textAlign: "center" }} id="timeline">My Learnings Timeline</Typography>
-            <Container sx={{ my: 10, boxShadow: 2, borderRadius: 1, p: 3 }} maxWidth="" style={{ height: "1000px" }}>
+            <Container sx={{ my: 10, boxShadow: 2, borderRadius: 1, p: 3 }} maxWidth="lg" style={{ height: "1000px" }}>
                 <Timeline position="alternate">
-                    <TimelineItem style={{ height: "200px", marginBottom: "10px" }}>
-                        <TimelineOppositeContent style={{ fontSize: "20px", marginTop: "-5px" }} >
-                            2019-2021
-                        </TimelineOppositeContent>
-                        <TimelineSeparator  >
-                            <CustomLineDot />
-                            <TimelineConnectorCustom />
-                        </TimelineSeparator>
+                    <Box >
+                        <TimelineItem style={{ height: "200px", marginBottom: "10px" }}>
 
-                        <TimelineContent style={{ fontWeight: "bold", fontSize: "20px" }}>
-                            Problem Solving with C++
-                        </TimelineContent>
-                    </TimelineItem>
-                    <TimelineItem style={{ height: "200px", marginBottom: "5px" }}>
-                        <TimelineOppositeContent style={{ fontWeight: "bold", fontSize: "20px" }}>
-                            Learned HTML and CSS from Udemy Course
-                        </TimelineOppositeContent>
-                        <TimelineSeparator >
-                            <CustomLineDot />
-                            <TimelineConnectorCustom />
-                        </TimelineSeparator>
+                            <TimelineOppositeContent style={{ fontSize: "20px", marginTop: "-5px" }} >
+                                2019-2021
+                            </TimelineOppositeContent>
+                            <TimelineSeparator  >
+                                <CustomLineDot />
+                                <TimelineConnectorCustom />
+                            </TimelineSeparator>
 
-                        <TimelineContent style={{ fontSize: "20px" }}>
-                            2021-2021
-                        </TimelineContent>
-                    </TimelineItem>
-                    <TimelineItem style={{ height: "200px", marginBottom: "5px" }}>
-                        <TimelineOppositeContent style={{ fontSize: "20px" }}>
-                            2021-2021
-                        </TimelineOppositeContent>
-                        <TimelineSeparator >
-                            <CustomLineDot />
-                            <TimelineConnectorCustom />
-                        </TimelineSeparator>
+                            <TimelineContent style={{ fontWeight: "bold", fontSize: "20px" }}>
+                                Problem Solving with C++
+                            </TimelineContent>
 
-                        <TimelineContent style={{ fontWeight: "bold", fontSize: "20px" }}>Completed Programming Hero course of Web development</TimelineContent>
-                    </TimelineItem>
-                    <TimelineItem style={{ height: "200px", marginBottom: "5px" }}>
-                        <TimelineOppositeContent style={{ fontWeight: "bold", fontSize: "20px" }}>
-                            Did few Projects <br></br> with technoligies <br></br> including <br></br> Mongodb,Express,React,Node
-                        </TimelineOppositeContent>
+                        </TimelineItem>
+                    </Box>
+                    <Box >
+                        <TimelineItem style={{ height: "200px", marginBottom: "5px" }}>
+                            <TimelineOppositeContent style={{ fontWeight: "bold", fontSize: "20px" }}>
+                                Learned HTML and CSS from Udemy Course
+                            </TimelineOppositeContent>
+                            <TimelineSeparator >
+                                <CustomLineDot />
+                                <TimelineConnectorCustom />
+                            </TimelineSeparator>
 
-                        <TimelineSeparator >
-                            <CustomLineDot />
-                            <TimelineConnectorCustom />
-                        </TimelineSeparator>
+                            <TimelineContent style={{ fontSize: "20px" }}>
+                                2021-2021
+                            </TimelineContent>
+                        </TimelineItem>
+                    </Box>
+                    <Box >
+                        <TimelineItem style={{ height: "200px", marginBottom: "5px" }}>
+                            <TimelineOppositeContent style={{ fontSize: "20px" }}>
+                                2021-2021
+                            </TimelineOppositeContent>
+                            <TimelineSeparator >
+                                <CustomLineDot />
+                                <TimelineConnectorCustom />
+                            </TimelineSeparator>
 
-                        <TimelineContent style={{ fontSize: "20px" }}>
-                            2021-Present
-                        </TimelineContent>
-                    </TimelineItem>
+                            <TimelineContent style={{ fontWeight: "bold", fontSize: "20px" }}>Completed Programming Hero course of Web development</TimelineContent>
+                        </TimelineItem>
+                    </Box>
+                    <Box >
+                        <TimelineItem style={{ height: "300px", marginBottom: "5px" }}>
+                            <TimelineOppositeContent style={{ fontWeight: "bold", fontSize: "20px" }}>
+                                <Box sx={{ border: 1 }}>
+                                    Did few Projects <br></br> with technoligies <br></br> including <br></br> Mongodb <br></br> Express <br></br>React <br></br>Node
+                                </Box>
+                            </TimelineOppositeContent>
+
+                            <TimelineSeparator >
+                                <CustomLineDot />
+                                <TimelineConnectorCustom />
+                            </TimelineSeparator>
+
+                            <TimelineContent style={{ fontSize: "20px" }}>
+                                2021-Present
+                            </TimelineContent>
+                        </TimelineItem>
+                    </Box>
 
 
                 </Timeline>

@@ -27,19 +27,19 @@ const IOffer = () => {
                     </Typography>
                     <Grid container spacing={2}  >
 
-                        <Grid item md={4} sx={{ boxShadow: 2, py: 3, border: 1 }}  >
+                        <Grid item md={4} xs={12} sx={{ boxShadow: 2, py: 3, border: 1 }}  >
                             <LanguageRoundedIcon fontSize="large" />
                             <Typography variant="h5"  >
                                 Web Development
                             </Typography>
                         </Grid>
-                        <Grid item md={4} sx={{ boxShadow: 2, py: 3, border: 1 }}>
+                        <Grid item md={4} xs={12} sx={{ boxShadow: 2, py: 3, border: 1 }}>
                             <CodeRoundedIcon fontSize="large" />
                             <Typography variant="h5" >
                                 React Development
                             </Typography>
                         </Grid>
-                        <Grid item md={4} sx={{ boxShadow: 2, py: 3, border: 1 }}>
+                        <Grid item md={4} xs={12} sx={{ boxShadow: 2, py: 3, border: 1 }}>
                             <DeviceIcon fontSize="large" />
                             <Typography variant="h5" >
                                 MERN Development
