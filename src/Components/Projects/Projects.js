@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <>
             <Container sx={{ my: 20, py: 4, border: 3 }} maxWidth="">
-                <Typography variant="h2" component="div" sx={{ letterSpacing: 15, textAlign: "center" }}>
+                <Typography variant="h2" component="div" sx={{ letterSpacing: 15, textAlign: "center" }} id="projects">
                     Projects
                 </Typography>
                 <Grid container spacing={2} sx={{ my: 8 }} >

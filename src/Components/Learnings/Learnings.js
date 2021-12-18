@@ -27,7 +27,7 @@ const Learnings = () => {
     return (
         <>
 
-            <Typography variant="h2" component='div' sx={{ textAlign: "center" }}>My Learnings Timeline</Typography>
+            <Typography variant="h2" component='div' sx={{ textAlign: "center" }} id="timeline">My Learnings Timeline</Typography>
             <Container sx={{ my: 10, boxShadow: 2, borderRadius: 1, p: 3 }}>
                 <Timeline position="alternate">
                     <TimelineItem style={{ height: "150px", marginBottom: "5px" }}>
