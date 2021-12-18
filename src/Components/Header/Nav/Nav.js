@@ -17,7 +17,7 @@ const drawerWidth = 300;
 
 const useStyle = makeStyles({
     sliderList: {
-        backgroundColor: `${indigo[100]}`, height: "100%"
+        height: "100%"
     }
 })
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
