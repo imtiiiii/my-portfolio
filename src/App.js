@@ -6,6 +6,7 @@ import Learnings from "./Components/Learnings/Learnings";
 import Projects from "./Components/Projects/Projects";
 import { Container } from "@mui/material"
 import { green, grey } from "@material-ui/core/colors";
+import ContactMe from "./Components/ContactMe/ContactMe";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <IOffer></IOffer>
       <Learnings></Learnings>
       <Projects></Projects>
+      <ContactMe></ContactMe>
 
 
     </>
